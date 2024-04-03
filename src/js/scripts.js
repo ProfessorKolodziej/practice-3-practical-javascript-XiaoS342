@@ -6,8 +6,6 @@
 // - Run npm run test regularly to check autograding
 // - You'll need to link this file to your HTML :)
 
-console.log("Hello!");
-
 const myName = "Xiao";
 const myAge = 100;
 
@@ -15,7 +13,7 @@ console.log(myAge);
 
 // show and hide an element on the page
 
-const toggledParagraph = document.querySelector('.show');
+const toggledParagraph = document.querySelector(".show");
 console.log(toggledParagraph);
 
 //Write a function that toggoles the show.hide classes
@@ -29,7 +27,7 @@ function toggleParagraph() {
 
 
 // Find the button and toggle the paragraph when we click on it
-const toggleButton = document.querySelecter("#toggle-control");
+const toggleButton = document. querySelector("#toggle-control");
 //console.log(toggleButton);
 
-toggleButton.addEventListener("click",toggleParagraph);
+toggleButton.addEventListener("click", toggleParagraph);
